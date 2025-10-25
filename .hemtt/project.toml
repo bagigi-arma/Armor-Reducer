@@ -1,0 +1,15 @@
+name = "Bagigi's Armor Reducer"
+author = "Bagigi Team"
+prefix = "armorreducer"
+mainprefix = "x"
+
+[files]
+include = [
+	"mod.cpp",
+	"meta.cpp",
+	"README.md",
+	"LICENSE.md",
+]
+
+[version]
+git_hash = 0
