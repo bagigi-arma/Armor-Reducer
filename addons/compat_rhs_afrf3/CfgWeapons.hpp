@@ -491,7 +491,6 @@ class CfgWeapons {
 	class Vest_Camo_Base: ItemCore {class ItemInfo;};
 	class rhs_vest_commander: Vest_Camo_Base {
 		class ItemInfo: ItemInfo {
-			containerClass = "Supply220";
 			class HitpointsProtectionInfo {
 				class Neck {
 					hitpointName = "HitNeck";
@@ -501,8 +500,8 @@ class CfgWeapons {
 				};
 				class Chest {
 					hitpointName = "HitChest";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Arms {
@@ -513,25 +512,72 @@ class CfgWeapons {
 				};
 				class Diaphragm {
 					hitpointName = "HitDiaphragm";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Abdomen {
 					hitpointName = "HitAbdomen";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Pelvis {
 					hitpointName = "HitPelvis";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Body {
 					hitpointName = "HitBody";
-					passThrough = 0.4;
+					passThrough = 1;
+					simulation = "";
+				};
+			};
+		};
+	};
+	class rhs_vest_pistol_holster: rhs_vest_commander {
+		class ItemInfo: ItemInfo {
+			class HitpointsProtectionInfo {
+				class Neck {
+					hitpointName = "HitNeck";
+					armor = 0;
+					passThrough = 1;
+					simulation = "";
+				};
+				class Chest {
+					hitpointName = "HitChest";
+					armor = 0;
+					passThrough = 1;
+					simulation = "";
+				};
+				class Arms {
+					hitpointName = "HitArms";
+					armor = 0;
+					passThrough = 1;
+					simulation = "";
+				};
+				class Diaphragm {
+					hitpointName = "HitDiaphragm";
+					armor = 0;
+					passThrough = 1;
+					simulation = "";
+				};
+				class Abdomen {
+					hitpointName = "HitAbdomen";
+					armor = 0;
+					passThrough = 1;
+					simulation = "";
+				};
+				class Pelvis {
+					hitpointName = "HitPelvis";
+					armor = 0;
+					passThrough = 1;
+					simulation = "";
+				};
+				class Body {
+					hitpointName = "HitBody";
+					passThrough = 1;
 					simulation = "";
 				};
 			};
@@ -597,8 +643,8 @@ class CfgWeapons {
 				};
 				class Chest {
 					hitpointName = "HitChest";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Arms {
@@ -609,25 +655,25 @@ class CfgWeapons {
 				};
 				class Diaphragm {
 					hitpointName = "HitDiaphragm";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Abdomen {
 					hitpointName = "HitAbdomen";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Pelvis {
 					hitpointName = "HitPelvis";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Body {
 					hitpointName = "HitBody";
-					passThrough = 0.4;
+					passThrough = 1;
 					simulation = "";
 				};
 			};
@@ -2709,8 +2755,8 @@ class CfgWeapons {
 				};
 				class Chest {
 					hitpointName = "HitChest";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 0;
+					passThrough = 1;
 					simulation = "";
 				};
 				class Arms {
@@ -2721,25 +2767,25 @@ class CfgWeapons {
 				};
 				class Diaphragm {
 					hitpointName = "HitDiaphragm";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 2;
+					passThrough = 0.8;
 					simulation = "";
 				};
 				class Abdomen {
 					hitpointName = "HitAbdomen";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 2;
+					passThrough = 0.8;
 					simulation = "";
 				};
 				class Pelvis {
 					hitpointName = "HitPelvis";
-					armor = 12;
-					passThrough = 0.4;
+					armor = 2;
+					passThrough = 0.8;
 					simulation = "";
 				};
 				class Body {
 					hitpointName = "HitBody";
-					passThrough = 0.4;
+					passThrough = 0.8;
 					simulation = "";
 				};
 			};
@@ -6971,7 +7017,6 @@ class CfgWeapons {
 	};
 	class rhs_gear_OFF: rhs_chicom {
 		class ItemInfo: ItemInfo {
-			containerClass = "Supply220";
 			class HitpointsProtectionInfo {
 				class Neck {
 					hitpointName = "HitNeck";
