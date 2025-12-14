@@ -13,7 +13,6 @@ class CfgVehicles {
 	class B_Carryall_Base;
 	class rhs_tortila_grey: B_Carryall_Base { STANDARD_LOAD_MASS; };
 
-
 	class rhs_rd54_flora1;
 	class rhs_rd54_vest_flora1: rhs_rd54_flora1 { STANDARD_LOAD_MASS; };
 
